@@ -1,0 +1,15 @@
+baseURL = "https://nur-gurban.github.io/blog/"
+languageCode = "en-us"
+title = "Nur-Gurban Web Dizayn Blogu"
+theme = "minnosh"
+publishDir = "docs" 
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about minnosh" 
+    url = "/about"
+    weight = -110
+
+ 

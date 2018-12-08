@@ -1,0 +1,19 @@
+
+<html  lang="{{with .Site.LanguageCode}} {{.}} {{else}} en-us {{end}}"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{.Title}}</title>
+        {{.Hugo.Generator}}
+    </head>
+    <body>
+            <nav>
+                    <ul>
+                      <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
+                      {{ range .Site.Menus.main -}}
+                        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+                      {{- end }}
+                    </ul>
+                  </nav>
+        <main>
+       
