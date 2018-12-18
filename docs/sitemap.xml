@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nur-gurban.github.io/blog/posts/linux1/</loc>
+    <lastmod>2018-12-18T22:34:08+04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nur-gurban.github.io/blog/about/</loc>
     <lastmod>2018-12-09T04:01:58+04:00</lastmod>
   </url>
@@ -25,13 +30,13 @@
   
   <url>
     <loc>https://nur-gurban.github.io/blog/</loc>
-    <lastmod>2018-12-09T04:01:58+04:00</lastmod>
+    <lastmod>2018-12-18T22:34:08+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nur-gurban.github.io/blog/posts/</loc>
-    <lastmod>2018-12-08T21:14:09+04:00</lastmod>
+    <lastmod>2018-12-18T22:34:08+04:00</lastmod>
     <priority>0</priority>
   </url>
   
