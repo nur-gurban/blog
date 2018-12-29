@@ -4,16 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>{{.Title}}</title>
+        <link  rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/style.css" >
+        <meta name="viewport" content="width=device-width" />
         {{.Hugo.Generator}}
-    </head>
+    </head> 
     <body>
             <nav>
-                    <ul>
-                      <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
-                      {{ range .Site.Menus.main -}}
-                        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-                      {{- end }}
+                     <!-- Fake checkbox 
+    -->
+    <input type="checkbox" />
+              <span> </span><span> </span><span> </span>
+       
+                           
+              {{ $esas := .}}  
+                    <ul> 
+                      {{ range .Site.Menus.main  }}
+                        <li>
+                          <a   class="{{if $esas.IsMenuCurrent "main" .}}active{{ end }}" href="{{.URL}}"> {{ .Name }} </a>
+                        </li>
+                      {{ end }}
                     </ul>
                   </nav>
         <main>
-       
+  

@@ -2,6 +2,7 @@
 title: "Linux sisteminde fayl agacina sade girish"
 date: 2018-12-18T22:34:08+04:00
 draft: false
+tags: ["linuks","elave"]
 ---
 
 ## linux sade

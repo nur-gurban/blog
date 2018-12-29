@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elave on Nur-Gurban Web Dizayn Blogu</title>
+    <link>https://nur-gurban.github.io/blog/tags/elave/</link>
+    <description>Recent content in Elave on Nur-Gurban Web Dizayn Blogu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2018 22:34:08 +0400</lastBuildDate>
+    
+	<atom:link href="https://nur-gurban.github.io/blog/tags/elave/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux sisteminde fayl agacina sade girish</title>
+      <link>https://nur-gurban.github.io/blog/posts/linux1/</link>
+      <pubDate>Tue, 18 Dec 2018 22:34:08 +0400</pubDate>
+      
+      <guid>https://nur-gurban.github.io/blog/posts/linux1/</guid>
+      <description>linux sade Fayl ve papkalar linux sisteminde fayl agaci. Qeyd edekki fayl sistemini ierarxiv agac seklinde zenn ede bilerik. Bu sistemde kok ve yaxud en ust pillede / ingilisce root(esas, kok) adlanan qovluq (folder, directory) yerlesir. Diger qovluqlar onun alt qovluqlaridir. Eger sistemde tree emeliyati varsa onun vasitesile bu agaci visualizasiya ede bilerik. (bu emeliyyati debian sistemde sudo apt install tree ile qurashdira bilersiniz)
+nezeri olaraq yalanchi agac / ├── budaq1 │ ├── budaq1.</description>
+    </item>
+    
+  </channel>
+</rss>

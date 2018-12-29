@@ -5,11 +5,33 @@ theme = "minnosh"
 publishDir = "docs" 
 
 [menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Ana" 
+    url = "/"
+    weight = -170
 
   [[menu.main]]
     identifier = "about"
-    name = "about minnosh" 
+    name = "Haqqinda" 
     url = "/about"
     weight = -110
 
+  [[menu.main]]
+    identifier = "html5"
+    name = "Html5" 
+    url = "/about"
+    weight = -160
+
+  [[menu.main]]
+    identifier = "css3"
+    name = "Css3" 
+    url = "/about"
+    weight = -130    
+
+  [[menu.main]]
+    identifier = "xtra"
+    name = "Elave" 
+    url = "/about"
+    weight = -130   
  

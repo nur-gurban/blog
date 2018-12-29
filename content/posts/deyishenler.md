@@ -1,0 +1,16 @@
+---
+title: "Deyishenler"
+date: 2018-12-25T21:09:25+04:00
+draft: true
+tags: ["proqramlashdirma"]
+---
+
+## Deyishenler 
+Umumen proqramlasdirma ve yaxud bu tipli meselelerde melumatlari yaddasda saxlamaga ehtiyac duyulur. Biz bu melumatlarin uzerinde defelerle emeliyyat aparib istifade edirik. Bu deyishenlere biz adlar veririkki sonradan onlara muraciet ede bilek. Burada bezen adlar gosterici rolunu oynayir.Yeni bele deyek eger biz deyishene yeni melumat menimsetsek ola bilsinki bu cari yaddasi deyishsin ve yaxud ola bilsinki yeni yaddasa yolu gostersin. Yuksek proqramlasdirma dillerinde bele nezeri bilmek abstrakt tesevvur kifayet edir. Amma asagi seviyyeli dillerde (meselen:C,C++) bu meseleleri tam idare edirik. Hemcinin yuksek seviyyeli dillerde deyishenlerin tipi rol oynamir. Amma asagi seviyyeli dillerde bu rol oynayir. Bundan elave yuksek seviyyeli dillerde biz yaddasi idare etmirik. Amma asagi seviyyeli dillerde yaddas avtomatik idare edilir. Gorunduyu kimi yuksek seviyyeli diller bir cox meseleleri hell ederek bizim ucun isi asanlasdirir. Amma, bezen suret ve yaddasa tam nezaret oldugundan asagi seviyyeli diller istifade edirik. Yaxsi, cox danismayaq,numunelere nezer salaq
+### Yaddas komputerde necedir?
+Yaddas komputerde bir baytliq qutular toplumu kimi baxa bilerik
+Bir baytin icinde 0-255 (yeni:256) ferqlilik yadda saxlamaq olur. Bir bayt 8 bitden ibaretdir. 8 Bit 8 mertebeli ikilik say sistemidir. Gelin  bunu onluq ile deyim meselen:ucmertebeli onluq say sisteminde 0-999 yeni 1000 feqlilik saxlamaq olur. Gorunduyu kimi bir baytda ferqliliklerin yaddas kimi istifade edirik. Sade halda bu ferqliliyi eded kimi goture bilerik mesel ucun 0-dan 255e qeder olan tam ededi ve ya -128den 0 a 0-danda 127e qeder olan ededi saxlaya bilerik. Bunan elave burada simvollarda yerlsdire bilerik. Meselen:32 dene Azeerbaycan herfi 0-dan 9a qeder olan onluq reqem simvolunu ve eyrde qalanlara ise smaylikler, urekler ve diger simvollar eks etdire bilerik. Yeni biz mesel ucun:0 a, 31 z, 32 ededini gordukde Z, 63u 0 reqemi kimi qebul edib kodlasdira bilerik. Eger bunu basha dusdunuzse onu qeyd edimki, azerbaycan herfleriyle kodlasdirdigimiz standart olaraq yoxdur. yeni ki, bu standartla isleyen emeliyyat sistemleri yoxdur. Lakin, butun emeliyyat sistemlerinde (Windows proqrami ve s) ASCII (American Standard Code for Information Interchange)-İnformasiya mübadiləsi üçün Amerika Standart Kodu- ingilis əlifbası  var. Gelin bunun cedveline baxaq gorek simvollar hansi ededle kodlasdirib.
+Meselen:65-A, 91-a, 55-"7", 10 -"yeni setir"
+Umumen simvollari ededlerden ferqlendirmek ucun biz onlari dirnaqda yaziriq. Meslen "7" burda simvoldur. 7 yazdiqda ise eded nezerde tuturuq. Bundan elave 77 ededi 1 baytda yerleshir amma "77" 2 bayt tutur.
+Qeyd edekki bizim elifba UTF-8 kodlasdirma ile verilir. Burda bizim ee 2 bayt tutur. amma ozumuz kodlasdiranda onu 1 bayta yerlesdirmisdik. Ona gore de bizim elifba ile yazanda yaddas simvol sayina muvafiq olmur. 
+Burdan bele gormek oluki yaddasimizi iki cur eks etdire bilerik. Ya her bayti eded kimi ya da ASCII simvol kimi gostere bilerik. Birinciye ikili format (binary) ikinciye ise metn deye bilerik.
