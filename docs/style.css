@@ -1,5 +1,11 @@
 body{
     background-color: whitesmoke;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction:column; 
+
+
+height:100%;
 }
 @media only screen and (min-width: 500px) {
 
@@ -127,4 +133,26 @@ nav ul li a:hover{
 nav ul li a.active{ 
     background-color: #2d154b; 
     color:white;
+}
+main{
+  flex: 1;
+  margin-left: 12px;
+}
+footer {
+  background-color:#2d154b;
+  min-height: 80px;
+  border-top: 5px solid #43226b; 
+ padding: 12px 12px 12px 12px;
+}
+.gith{ 
+  display:flex;
+  justify-content: flex-end;
+}
+.gith a{
+  text-decoration-line: none;
+  color: #cdcdcd;
+}
+.gith a img{
+  height: 60px;
+  vertical-align:middle;
 }
